@@ -5,9 +5,11 @@ For example
 
 ## Instructions (so far)
 Download the DeeplabV3 model from pytorch hub and convert it to Apple's format
-1. Create a pip environment with the appropiate requirements
+1. Create a pip environment 
 `python3 -m venv .venv` 
+2. Activate it
 `source .venv/bin/activate` 
+3. Install requirements
 `pip install -r requirements.txt`  
-2. Run the script for downloading and converting
+4. Run the script for downloading and converting
 `python3 models/convert.py`
